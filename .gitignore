@@ -1,0 +1,36 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python and JavaScript tooling (when introduced)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+node_modules/
+.next/
+dist/
+build/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local and generated data
+*.sqlite
+*.sqlite3
+storage/
+generated-media/
+tmp/
+*.log
+
+# Editor and operating system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
